@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include "Gra.h"
+#include <cstdlib>
+#include <ctime>
+
+int main() {
+    srand(static_cast<unsigned int>(time(nullptr)));
+
+    Gra gra; 
+    gra.menuGlowne(); //uruchomienie interfesju uzytkownika
+
+    return 0;
+}
